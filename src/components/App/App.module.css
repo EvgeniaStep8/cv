@@ -1,0 +1,6 @@
+@media print {
+	.App {
+		width: 210mm;
+		height: 297mm;
+	}
+}
