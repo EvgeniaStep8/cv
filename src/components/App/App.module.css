@@ -1,6 +1,12 @@
+.App {
+	padding: 50px 40px;
+	background-color: var(--background-color);
+}
+
 @media print {
 	.App {
 		width: 210mm;
 		height: 297mm;
+		padding: 20mm 10mm;
 	}
 }

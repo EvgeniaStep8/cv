@@ -1,7 +1,7 @@
 import styles from './Tag.module.css';
 
 const Tag = ({ text }) => (
-	<div className={styles.Tag}>{text}</div>
+	<p className={styles.Tag}>{text}</p>
 );
 
 export default Tag;
