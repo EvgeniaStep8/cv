@@ -1,12 +1,13 @@
 .Header {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 	padding-bottom: 40px;
 	border-bottom: solid 1px var(--interface-light-gray-color);
 }
 
 .avatar {
-	width: 15%;
+	width: 150px;
 	aspect-ratio: 1;
 	border-radius: 50%;
 	border: 2px solid var(--interface-light-gray-color);
@@ -18,26 +19,22 @@
 }
 
 .title {
-	margin: 0;
-	padding: 0;
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 42px;
 	color: var(--interface-balck-color);
+	margin-bottom: 20px;
 }
 
 .subtitle {
-	margin: 0;
-	padding: 0;
-	margin-top: 20px;
 	color: var(--interface-primary-color);
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 32px;
+	margin-bottom: 20px;
 }
 
 .tags {
-	margin-top: 20px;
 	display: flex;
 	gap: 10px;
 }
