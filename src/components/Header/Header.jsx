@@ -11,7 +11,6 @@ const Header = () => (
 			<div className={styles.tags} >
 				<Tag text='26 лет' />
 				<Tag text='Москва' />
-				<Tag text='Готова к удалённой работе' />
 			</div>
 		</div>
 	</header>

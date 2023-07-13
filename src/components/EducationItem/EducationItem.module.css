@@ -1,0 +1,30 @@
+.EducationItem {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.container {
+	display: flex;
+}
+
+.years {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	margin-right: 10px;
+}
+
+.place {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+	max-width: 200px;
+}
+
+.profession {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	justify-self: end;
+}

@@ -1,17 +1,6 @@
-.Info {
-	width: 35%;
+.Education {
+	width: 65%;
 	border-right: solid 1px var(--interface-light-gray-color);
 	border-bottom: solid 1px var(--interface-light-gray-color);
 	padding: 30px 10px 30px 0;
-}
-
-.text {
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 18px;
-	margin-bottom: 15px;
-}
-
-.accent {
-	font-weight: 600;
 }
